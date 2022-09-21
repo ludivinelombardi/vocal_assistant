@@ -1,0 +1,14 @@
+partir/exit
+calendrier/calendar
+terminal/shell
+santé/health
+message/sms
+confusion/noanswer
+salutation/greeting
+open/openYoutube
+email/mail
+batterie/système
+git/openGit
+temps/getWeather
+heure/getTime
+open/openGoogle

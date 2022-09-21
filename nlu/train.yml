@@ -1,0 +1,181 @@
+commands: 
+
+#Bonjour 
+  - command: 
+    input: Bonjour Connor
+    entity: salutation
+    action: greeting
+  - command: 
+    input: Hello Connor
+    entity: salutation
+    action: greeting
+  - command: 
+    input: Hey Connor
+    entity: salutation
+    action: greeting
+
+#Ca va??
+  - command: 
+    input: Comment vas ?
+    entity: santé
+    action: health
+  - command: 
+    input: ça va ?
+    entity: santé
+    action: health
+  - command: 
+    input: comment te sens-tu ?
+    entity: santé
+    action: health
+
+#Heure
+  - command: 
+    input: Quelle heure est-il ?
+    entity: heure
+    action: getTime
+  - command: 
+    input: C'est quelle heure ?
+    entity: heure
+    action: getTime
+  - command: 
+    input: Donne moi l'heure
+    entity: heure
+    action: getTime
+  - command: 
+    input: heure
+    entity: heure
+    action: getTime
+
+#Open Google
+  - command: 
+    input: Ouvre google
+    entity: open
+    action: openGoogle
+  - command: 
+    input: vas sur google
+    entity: open
+    action: openGoogle
+
+#Open YT
+  - command: 
+    input: Ouvre youtube
+    entity: open
+    action: openYoutube
+  - command: 
+    input: vas sur youtube
+    entity: open
+    action: openYoutube
+
+#Temps
+  - command: 
+    input: Quel temps fait-il aujourd'hui ?
+    entity: temps
+    action: getWeather  
+  - command: 
+    input: est-ce qu'il fait beau aujourd'hui ?
+    entity: temps
+    action: getWeather 
+  - command: 
+    input: météo
+    entity: temps
+    action: getWeather
+
+#Mail 
+  - command: 
+    input: ouvre mes e-mail
+    entity: email
+    action: mail
+  - command: 
+    input: vas dans mes mail
+    entity: email
+    action: mail
+
+#Calendrier 
+  - command: 
+    input: ouvre mon calendrier 
+    entity: calendrier
+    action: calendar
+  - command: 
+    input: que dois-je faire aujourd'hui 
+    entity: calendrier
+    action: calendar
+  - command: 
+    input: vas dans mon calendrier 
+    entity: calendrier
+    action: calendar
+
+#Message 
+  - command: 
+    input: ouvre mes messages 
+    entity: message
+    action: sms
+  - command: 
+    input: vas dans mes messages 
+    entity: message
+    action: sms
+
+#Github 
+  - command: 
+    input: ouvre git 
+    entity: git
+    action: openGit
+  - command: 
+    input: vas sur git  
+    entity: git
+    action: openGit
+  
+#Batterie 
+  - command: 
+    input: combien me reste-il de batterie 
+    entity: batterie
+    action: système
+  - command: 
+    input: quel est mon pourcentage de batterie
+    entity: batterie
+    action: système
+  - command: 
+    input: quel est l'état de ma batterie
+    entity: batterie
+    action: système
+
+#Terminal
+  - command: 
+    input:  ouvre un terminal   
+    entity: terminal
+    action: shell
+  - command: 
+    input: ouvre un shell
+    entity: terminal
+    action: shell
+  - command: 
+    input: ouvre ligne de commande
+    entity: terminal
+    action: shell
+
+#Au revoir 
+  - command: 
+    input: connor, stop
+    entity: partir
+    action: exit
+  - command: 
+    input: connor, tais-toi
+    entity: partir
+    action: exit
+  - command: 
+    input: connor, ça suffit
+    entity: partir
+    action: exit
+  - command: 
+    input: connor, au revoir
+    entity: partir
+    action: exit
+  - command: 
+    input: connor, ta gueule
+    entity: partir
+    action: exit
+  
+#Pas compris
+  - command: 
+    input: ""
+    entity: confusion
+    action: noanswer
